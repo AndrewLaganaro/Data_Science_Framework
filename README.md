@@ -1,10 +1,6 @@
 # Data Science Framework
 
-<center>
-
-![Data_Science_Framework](Images/Framework_data_science.png)
-
-</center>
+<img src="Images/Framework_data_science.png" min-width="400px" max-width="400px" width="400px" align="center" alt="Framework_data_science">
 
 ## 📜 About this project
 
