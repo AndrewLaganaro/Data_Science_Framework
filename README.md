@@ -168,9 +168,9 @@ This is where the container is built both to backend and frontend:
 * 🐳⚙️ **Entrypoint.sh**
     * Entrypoint.sh with commands to run the project after docker build
 * 🐍⚙️ **Poetry.lock**
+    * Poetry lock file, with all the dependencies of the project listed by version
 * 🐍⚙️ **Pyproject.toml**
-    * Poetry.lock with the dependencies of the project
-    * Pyproject.toml with the project libraries separated by current environment (dev, prod)
+    * Pyproject.toml with the project dependencies separated by current environment (dev, prod)
 * 🐍📝**Requirements.py**
     * If chosen to deploy in a container but not to install dependencies on build stage, this file handles the dependencies installation when being called via entrypoint.sh
 * 🐍📝**Requirements.txt**
