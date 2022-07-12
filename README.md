@@ -6,7 +6,7 @@
 
 ##### A Framework for Data Science Projects, from analysis to deployment.
 
->In this repository I share a folder configuration that helped me with data science development and analysis when I was starting to learn it.
+>In this repository I share a folder configuration that helped me with data science development and analysis back when I was starting to learn it.
 >
 >This folder configuration's aim is not only to be a starting point for data science projects but also to be a foundation for a container-served deployment architecture, with pre-configured Docker images for each service.
 
