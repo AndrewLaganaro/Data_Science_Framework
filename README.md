@@ -1,16 +1,20 @@
 # Data Science Framework
 
+<center>
+
 ![Data_Science_Framework](Images/Framework_data_science.png)
 
-## **About this project**
+</center>
 
-##### A Framework for Data Science Projects, from analysis to deployment.
+## 📜 About this project
+
+#### A Framework for Data Science Projects, from analysis to deployment.
 
 >In this repository I share a folder configuration that helped me with data science development and analysis back when I was starting to learn it.
 >
 >This folder configuration's aim is not only to be a starting point for data science projects but also to be a foundation for a container-served deployment architecture, with pre-configured Docker images for each service.
 
-#### 🚀 **Built with**
+#### 🚀 Built with
 - 🐍Python
 - 📘Poetry
 - 🔌FastAPI
@@ -19,14 +23,14 @@
 - 🐳Docker
 - 🖼Drawio
 
-#### 🎯**General project status:**
+#### 🎯 General project status
 
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
 At this point I find it mostly as concluded, with few to no doubts left about what to include in it.
 There's files inside filled with some code meant to be the first steps to a data science pipeline that still needs to be finished
 
-#### ⭐️**Features to be added currently are:**
+##### ⭐️ Features to be added
 
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/20)
 
@@ -41,9 +45,9 @@ There's files inside filled with some code meant to be the first steps to a data
 * [ ] Better understand how to use MySQL or PostgreSQL with Alembic, Pydantic, SQLAlchemy and FastAPI
 * [ ] Create a sample class for CRUD operations with SQLAlchemy and FastAPI
 
-#### 📝**How to use this Project**
+#### 📝 How to use this Project
 
-#### 💻 Pre-requisites
+##### 💻 Pre-requisites
 
 Before starting, make sure you've met the following requirements:
 
@@ -51,7 +55,7 @@ Before starting, make sure you've met the following requirements:
     - At least Python 3.6 is required.
 - You have either Windows, Linux or Mac machine.
 
-#### 🚀 Installing Data Science Framework
+##### 🚀 Installing Data Science Framework
 
 To install the Data Science Framework, follow these steps:
 
@@ -109,7 +113,7 @@ Meant to separate the project into analysis phase and deployment phase, the Fram
 | ----------------- |
 | ![](Images/Project_view.png) |
 
-### ⚙️**Development Folder**
+#### ⚙️ Development Folder
 
 * 📊**Data**
     * Every dataset, model, scaler, classes and encoder object that is used in the project is stored here.
@@ -124,7 +128,7 @@ Meant to separate the project into analysis phase and deployment phase, the Fram
 | ------------------ | ---------------- |
 | ![](Images/Development_folder_view.png) | ![](Images/Notebooks_folder_view.png) |
 
-### 📊**Project Folder**
+#### 📊 Project Folder
 
 Here the structure is aimed to deploy the project in a container-served environment, as such, each folder inside ``` App ``` is meant to be a container:
 
@@ -154,11 +158,11 @@ Here the structure is aimed to deploy the project in a container-served environm
 | -------------- | -------------- | ------------- |
 | ![](Images/Project_folder_view.png) | ![](Images/Backend_folder_view.png) | ![](Images/Server_folder_view.png) |
 
-### 🛠**Build Folder**
+#### 🛠 Build Folder
 
 This is where the container is built both to backend and frontend:
 
-* 🔧**Dockerfile**
+* 🐳**Dockerfile**
     * Dockerfile with minimal python-poetry setup
     * Receives current virtual environment from /Env folder and docker compose
     * Using poetry as a dependency manager, separating dependencies according to the current environment (dev, prod)
