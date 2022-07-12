@@ -129,26 +129,28 @@ Meant to separate the project into analysis phase and deployment phase, the Fram
 Here the structure is aimed to deploy the project in a container-served environment, as such, each folder inside ``` App ``` is meant to be a container:
 
 * 🖥📊 **App**
-    * 🐳📦 Backend
+    * 🐳📦 **Backend**
         * Backend code, predictions, training, API with database and frontend
         * Also contains models, scalers, class and encoder objects
         * Contains database configuration, table model, data schemas and migrations
-    * 🐳📦 Frontend
+    * 🐳📦 **Frontend**
         * Frontend code, visualizations, web app, API with backend
-    * 🐳📦 Database
+    * 🐳📦 **Database**
         * Database code, with all the data and models that are used in the project
-    * 🐳📦 Storage
+    * 🐳📦 **Storage**
         * Storage container, with logs, reports, images, etc Meant for local testing
 * 🖼 **Schemes**
     * 🖼🖥 Schemes for the project, API scketchs, App schemes, etc
 * 💿 **Server**
-    * 🐳 Docker
+    * 🐳 **Docker**
         * Docker compose files for development and production
-    * ⚙️ Env
+    * ⚙️ **Env**
         * Environment variables for the project, mainly to be used with docker compose
-    * ⛩ Heroku
+    * ⛩ **Heroku**
         * Heroku app configuration files, runtime, requirements, etc
         * It is also possible to deploy a docker container in a heroku app using Heroku.yml
+    * 🐍💿 **Server.py** 
+        * Server code, meant to automate the deployment with docker
 
 | **Project Folder** | **Backend Folder** | **Server Folder** |
 | -------------- | -------------- | ------------- |
