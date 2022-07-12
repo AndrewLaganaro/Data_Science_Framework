@@ -8,7 +8,7 @@
 
 >In this repository I share a folder configuration that helped me with data science development and analysis when I was starting to learn it.
 >
->This folder configuration is aimed not just to be a starting point for data science projects but also to be a good foundation for a container-served deployment architecture, with pre-configured Docker images for each service.
+>This folder configuration's aim not only to be a starting point for data science projects, but also, to be a foundation for a container-served deployment architecture, with pre-configured Docker images for each service.
 
 #### 🚀 **Built with**
 - 🐍Python
