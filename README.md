@@ -4,7 +4,7 @@
 
 ## **About this project**
 
-##### A Framework for Data Science Projects, from analysis to deployment
+##### A Framework for Data Science Projects, from analysis to deployment.
 
 >In this repository I share a folder configuration that helped me with data science development and analysis when I was starting to learn it.
 >
