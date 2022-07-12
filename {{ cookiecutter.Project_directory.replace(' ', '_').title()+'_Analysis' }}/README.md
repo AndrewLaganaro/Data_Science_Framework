@@ -3,7 +3,9 @@ Author: {{ cookiecutter.Author }}
 ## Project Roadmap
 
 - - -
+
 ## Project Description
+
 {{ cookiecutter.Description }}
 
 - - -

@@ -1,0 +1,35 @@
+{
+    "material-icon-theme.folders.associations": {
+    "Notebooks": "project", "Saved": "dump",
+    "Production": "shared", "Predictions": "review",
+    "Developing": "test", "Build": "config", "Preliminary": "other",  
+    "Finals": "mappings", "Project": "src",
+    "Mongo": "database", "MySQL": "database",
+    "SQLite": "database", "Postgres": "database",
+    "Models": "middleware", "Model": "middleware",
+    "Raw": "components", "Ongoing": "test",
+    "Dataset": "meta", "Data Analysis": "pipe",
+    "Data Science": "pipe", "data_analysis": "pipe",
+    "data_science": "pipe", "deployment": "pipe",
+    "Machine Learning": "pipe", "Machine_learning": "pipe", "Pipeline": "pipe",
+    "Airflow": "connection", "Django": "connection",
+    "Flask": "connection", "Fastapi": "connection",
+    "Data Collection": "shared", "Data Cleaning": "mock",
+    "Exploratory Analysis": "log", "Feature Engineering": "context",
+    "Model Building": "components", "Model Evaluation": "test",
+    "Storytelling": "vm", "Visualization and Dashboard": "tasks", "Web App":"mobile",
+    "Api": "connection", "App": "app", "App dev": "app", "figures": "images",
+    "storage":"container", "Development": "project", "Logs": "messages",
+    "Launcher": "core", "Launcher Manager": "controller", "Package Manager": "core",
+    "Python Install": "python", "Approved": "resolver", "Tables": "interface",
+    "Heroku": "middleware", "Migrations": "config", "Scalers": "delta",
+    "Encoders":"mock",".unotes":"mock","Schemes":"mock"
+},
+"material-icon-theme.files.associations": {
+    "Requirements.dev.txt": "python-misc", "Requirements.prod.txt": "python-misc",
+    "Requirements.back.txt": "python-misc", "Requirements.front.txt": "python-misc",
+    "Heroku.yml": "heroku", "*.bat": "powershell", "Aptfile": "heroku", "Runtime.txt":"heroku",
+    "*.pkl": "..//..//icons//network"
+}
+
+}

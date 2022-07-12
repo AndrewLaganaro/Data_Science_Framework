@@ -6,18 +6,19 @@
 
 #### A Framework for Data Science Projects, from analysis to deployment.
 
->In this repository I share a folder configuration that helped me with data science development and analysis back when I was starting to learn it.
->
->This folder configuration's aim is not only to be a starting point for data science projects but also to be a foundation for a container-served deployment architecture, with pre-configured Docker images for each service.
+> In this repository I share a folder configuration that helped me with data science development and analysis back when I was starting to learn it.
+> 
+> This folder configuration's aim is not only to be a starting point for data science projects but also to be a foundation for a container-served deployment architecture, with pre-configured Docker images for each service.
 
 #### 🚀 Built with
-- 🐍Python
-- 📘Poetry
-- 🔌FastAPI
-- 💻Streamlit
-- 🪐Jupyter Notebook
-- 🐳Docker
-- 🖼Drawio
+
+* 🐍Python
+* 📘Poetry
+* 🔌FastAPI
+* 💻Streamlit
+* 🪐Jupyter Notebook
+* 🐳Docker
+* 🖼Drawio
 
 #### 🎯 General project status
 
@@ -47,15 +48,17 @@ There's files inside filled with some code meant to be the first steps to a data
 
 Before starting, make sure you've met the following requirements:
 
-- You have installed the latest version of Python and Cookiecutter.
-    - At least Python 3.6 is required.
-- You have either Windows, Linux or Mac machine.
+* You have installed the latest version of Python and Cookiecutter.
+    * At least Python 3.6 is required.
+* You use Visual Studio Code to use folde and file icons
+* You have either Windows, Linux or Mac machine.
 
 ##### 🚀 Installing Data Science Framework
 
 To install the Data Science Framework, follow these steps:
 
-- 📁 Select a folder which you want your project to live in.
+* 📁 Select a folder which you want your project to live in.
+
 ```
 ...
 📁 Data Science ⬅️ 💻 Start your terminal here 💻
@@ -64,21 +67,24 @@ To install the Data Science Framework, follow these steps:
     📁 Iris_Analysis
     ...
 ```
-- 💻 Install cokkiecutter with pip:
+
+* 💻 Install cokkiecutter with pip:
 
 ```
 pip install cookiecutter
 ```
-- 💻 Then install the Data Science Framework running the following command:
+
+* 💻 Then install the Data Science Framework running the following command:
 
 ```
 cookiecutter https://github.com/AndrewLaganaro/Data_Science_Framework
 ```
+
 You'll be prompted with some questions, type your project infos as requested and hit enter.
 
-- A folder will be created with the name you provided for your project
-- It's name will also be present on the main notebook file inside notebook folder
-- You'll also see the description and author name you provided in the README.md file of the project
+* A folder will be created with the name you provided for your project
+* It's name will also be present on the main notebook file inside notebook folder
+* You'll also see the description and author name you provided in the README.md file of the project
 
 ```
 Project Name [Project Name]: Penguim Dataset
@@ -89,7 +95,9 @@ Author [Your Name]: Daniel
 
 Description [Project Description]: Group different penguim species into groups based on their size and color
 ```
+
 Whatever name you give, spaces will be replaced with underscores and the name will end with "Analysis".
+
 ```
 ...
 📁 Data Science
@@ -100,7 +108,46 @@ Whatever name you give, spaces will be replaced with underscores and the name wi
     ...
 ```
 
+##### 🚀🖼 Installing Folder and Icon Themes configuration
+
+* 💻 Be sure to install [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) in your VSCode
+* 📝 Add the content of **folder\_file\_icons.json** to your vscode **.json** configuration file.
+
+```
+{
+    "other vscode configs":"going around",
+
+    "material-icon-theme.folders.associations": { all folder associations },
+    "material-icon-theme.files.associations": { all file associations },
+
+    "other vscode configs":"going around",
+}
+```
+
+##### 🖼 **Custom icons for Material Icon Theme**
+
+* 📁 Create a folder **.vscode/extensions/icons** inside your **user** folder
+* 📝 Do not put **.svg** on the name of the file, just the name of the icon
+* 📁 You cand also copy the provided folder that comes with this Framework and use it as a starting point
+    * <img src="Images/network.svg" min-width="20px" max-width="30px" width="30px" align="center" alt="Framework_data_science"> The icon provided currently is for .pkl files
+
+```
+...
+📁 User 💻 Windows, Linux, Mac
+    📁 .vscode
+        📁 extensions
+            📁 icons
+                🖼 custom-icon.svg
+    📁 Documents
+        📁 Data Science
+            📁 Diamond_Analysis
+            📁 Wine_Analysis
+            📁 Iris_Analysis
+    ...
+```
+
 #### ☕ Using Data Science Framework
+
 To use this Data Science Framework, take a look at the folder descriptions bellow.
 
 Meant to separate the project into analysis phase and deployment phase, the Framework structure is as follows:
@@ -126,7 +173,7 @@ Meant to separate the project into analysis phase and deployment phase, the Fram
 
 #### 📊🖥 Project Folder
 
-Here the structure is aimed to deploy the project in a container-served environment, as such, each folder inside ``` App ``` is meant to be a container:
+Here the structure is aimed to deploy the project in a container-served environment, as such, each folder inside ```App``` is meant to be a container:
 
 * 🖥📊 **App**
     * 🐳📦 **Backend**
@@ -149,7 +196,7 @@ Here the structure is aimed to deploy the project in a container-served environm
     * ⛩ **Heroku**
         * Heroku app configuration files, runtime, requirements, etc
         * It is also possible to deploy a docker container in a heroku app using Heroku.yml
-    * 🐍💿 **Server.py** 
+    * 🐍💿 **Server.py**
         * Server code, meant to automate the deployment with docker
 
 | **Project Folder** | **Backend Folder** | **Server Folder** |
