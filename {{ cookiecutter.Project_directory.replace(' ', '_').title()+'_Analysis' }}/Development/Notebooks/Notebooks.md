@@ -1,0 +1,1 @@
+{{ cookiecutter.Project_name.replace(' ', '_').title()+'_Analysis' }}
