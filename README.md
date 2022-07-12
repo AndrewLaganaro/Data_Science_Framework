@@ -109,44 +109,44 @@ Meant to separate the project into analysis phase and deployment phase, the Fram
 | ----------------- |
 | ![](Images/Project_view.png) |
 
-#### ⚙️ Development Folder
+#### ⚙️🖥 Development Folder
 
-* 📊**Data**
+* 📊 **Data**
     * Every dataset, model, scaler, classes and encoder object that is used in the project is stored here.
-* 📑**Docs**
+* 📑 **Docs**
     * Documentation for the project goes here.
-* 📚**Notebooks**
+* 📚 **Notebooks**
     * Notebooks for the project goes here.
-* 📈**Reports**
+* 📈 **Reports**
     * Reports for the project, visualizations and other results issued along the project goes here.
 
 | **Development Folder** | **Notebooks Folder** |
 | ------------------ | ---------------- |
 | ![](Images/Development_folder_view.png) | ![](Images/Notebooks_folder_view.png) |
 
-#### 📊 Project Folder
+#### 📊🖥 Project Folder
 
 Here the structure is aimed to deploy the project in a container-served environment, as such, each folder inside ``` App ``` is meant to be a container:
 
-* 🖥**App**
-    * 📦Backend
+* 🖥📊 **App**
+    * 🐳📦 Backend
         * Backend code, predictions, training, API with database and frontend
         * Also contains models, scalers, class and encoder objects
         * Contains database configuration, table model, data schemas and migrations
-    * 📦Frontend
+    * 🐳📦 Frontend
         * Frontend code, visualizations, web app, API with backend
-    * 📦Database
+    * 🐳📦 Database
         * Database code, with all the data and models that are used in the project
-    * 📦Storage
+    * 🐳📦 Storage
         * Storage container, with logs, reports, images, etc Meant for local testing
-* 🖼**Schemes**
-    * Schemes for the project, API scketchs, App schemes, etc
-* 💿**Server**
-    * 🐳Docker
+* 🖼 **Schemes**
+    * 🖼🖥 Schemes for the project, API scketchs, App schemes, etc
+* 💿 **Server**
+    * 🐳 Docker
         * Docker compose files for development and production
-    * ⚙️Env
+    * ⚙️ Env
         * Environment variables for the project, mainly to be used with docker compose
-    * ⛩Heroku
+    * ⛩ Heroku
         * Heroku app configuration files, runtime, requirements, etc
         * It is also possible to deploy a docker container in a heroku app using Heroku.yml
 
@@ -154,24 +154,25 @@ Here the structure is aimed to deploy the project in a container-served environm
 | -------------- | -------------- | ------------- |
 | ![](Images/Project_folder_view.png) | ![](Images/Backend_folder_view.png) | ![](Images/Server_folder_view.png) |
 
-#### 🛠 Build Folder
+#### 🛠🖥 Build Folder
 
 This is where the container is built both to backend and frontend:
 
-* 🐳**Dockerfile**
+* 🐳📝 **Dockerfile**
     * Dockerfile with minimal python-poetry setup
     * Receives current virtual environment from /Env folder and docker compose
     * Using poetry as a dependency manager, separating dependencies according to the current environment (dev, prod)
     * Using a pyhon virtual environment with venv
-* ⚙️**Entrypoint.sh**
+* 🐳⚙️ **Entrypoint.sh**
     * Entrypoint.sh with commands to run the project after docker build
-* ⚙️**Poetry.lock/Pyproject.toml**
+* 🐍⚙️ **Poetry.lock**
+* 🐍⚙️ **Pyproject.toml**
     * Poetry.lock with the dependencies of the project
     * Pyproject.toml with the project libraries separated by current environment (dev, prod)
-* 📝**Requirements.py**
+* 🐍📝**Requirements.py**
     * If chosen to deploy in a container but not to install dependencies on build stage, this file handles the dependencies installation when being called via entrypoint.sh
-* 📝**Requirements.txt**
-    * Requirements.txt with the dependencies of the project
+* 🐍📝**Requirements.txt**
+    * Requirements.txt with the dependencies of the project to be used by Heroku or with requirements.py
 
 | **Build Folder** | **Frontend Folder** |
 | ------------ | --------------- |
