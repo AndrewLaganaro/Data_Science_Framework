@@ -2,6 +2,10 @@
 
 <img src="Images/Framework_data_science.png" min-width="400px" max-width="400px" width="400px" align="center" alt="Framework_data_science">
 
+##### Author: Andrew Laganaro
+
+#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+
 ## 📜 About this project
 
 #### A Framework for Data Science Projects, from analysis to deployment.
@@ -20,6 +24,10 @@
 * 🐳Docker
 * 🖼Drawio
 
+####  ⬇️ Take a look at my Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  
 #### 🎯 General project status
 
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
@@ -226,3 +234,10 @@ This is where the container is built both to backend and frontend:
 | **Build Folder** | **Frontend Folder** |
 | ------------ | --------------- |
 | ![](Images/Build_folder_view.png) | ![](Images/Frontend_folder_view.png) |
+
+---
+
+####  ⬇️ Take a look at my Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  
