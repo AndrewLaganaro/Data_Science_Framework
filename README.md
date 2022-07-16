@@ -1,17 +1,28 @@
-# Data Science Framework
-
 <img src="Images/Framework_data_science.png" min-width="400px" max-width="400px" width="400px" align="center" alt="Framework_data_science">
 
-## 📜 About this project
+---
 
-#### A Framework for Data Science Projects, from analysis to deployment.
+# Data Science Framework
 
-> In this repository I share a folder configuration that helped me with data science development and analysis back when I was starting to learn it.
-> 
-> This folder configuration's aim is not only to be a starting point for data science projects but also to be a foundation for a container-served deployment architecture, with pre-configured Docker images for each service.
+##### Readme in English <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Data_Science_Framework/blob/main/README.en.md" alt="American"> <img title="American" alt="American" src="Images/usa.png" width="20"></a></kbd>◀ </p>
 
-#### 🚀 Built with
+##### Léame en Español <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Data_Science_Framework/blob/main/README.es.md" alt="Español"> <img title="Español" alt="Español" src="Images/es.png" width="20"></a></kbd>◀ </p>
 
+#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+
+##### Autor: Andrew Laganaro
+
+---
+
+## 📜 Sobre este projeto
+
+#### Um Framework para Projetos de Data Science, da análise ao deploy
+
+> Neste repositório eu compartilho uma configuração de pastas que me ajudou no desenvolvimento e análise de ciência de dados quando eu estava começando a aprender sobre o assunto
+>
+> O objetivo desta configuração de pastas não é apenas ser um ponto de partida para projetos de ciência de dados, mas também uma base para uma arquitetura de implantação servida por containers, com imagens Docker pré-configuradas para cada serviço.
+
+#### 🚀 Construído com
 * 🐍Python
 * 📘Poetry
 * 🔌FastAPI
@@ -20,71 +31,68 @@
 * 🐳Docker
 * 🖼Drawio
 
-#### 🎯 General project status
+### 🛠 Projetos
+
+  [![Store Sales Analysis](https://img.shields.io/badge/Projects-Store%20Sales%20Analysis-orange)](https://github.com/AndrewLaganaro/Store_Sales_Analysis)
+  
+  [![Data Science Framework](https://img.shields.io/badge/Projects-Data%20Science%20Framework-blue)](https://github.com/AndrewLaganaro/Data_Science_Framework)
+  
+  [![Data Science Classes](https://img.shields.io/badge/Projects-Data%20Science%20Classes-red)](https://github.com/AndrewLaganaro/Data_Science_Classes)
+
+####  ⬇️ Dá uma olhada no meu Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  
+#### 🎯 Status geral do projeto
 
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
-At this point I find it mostly as concluded, with few to no doubts left about what to include in it.
-There's files inside filled with some code meant to be the first steps to a data science pipeline that still needs to be finished
+Até aqui vejo o projeto como praticamente concluído, com pouca ou nenhuma dúvida sobre o que incluir.
 
-##### ⭐️ Features to be added
+Há arquivos dentro preenchidos com um pouco de código destinados a serem os primeiros passos para um pipeline de ciência de dados que ainda precisa ser finalizado
 
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/20)
+#### 📝 Como usar este projeto
 
-* [ ] Improve this Readme file
-    * [ ] Compare a text file tree with the ones in the repo, see which fits better
-    * [ ] Add a Drawio diagram of the folder structure
-* [ ] Finish data science pipeline files
-* [ ] Finish Dockerfile from Database container setup
-* [ ] Create a hello world web app using streamlit
-* [ ] Create a hello world API using fastapi
-* [ ] Create a sample function for communication between backend and frontend containers
-* [ ] Better understand how to use MySQL or PostgreSQL with Alembic, Pydantic, SQLAlchemy and FastAPI
-* [ ] Create a sample class for CRUD operations with SQLAlchemy and FastAPI
+##### 💻 Pré-requisitos
 
-#### 📝 How to use this Project
+Antes de começar, verifique se você atende aos seguintes requisitos:
 
-##### 💻 Pre-requisites
+* Você instalou a versão mais recente do Python e Cookiecutter.
+    * É necessário pelo menos o Python 3.6.
+* Você tem o Visual Studio Code para usar os ícones de pastas e arquivos
 
-Before starting, make sure you've met the following requirements:
+##### 🚀 Instalando o Framework de Data Science
 
-* You have installed the latest version of Python and Cookiecutter.
-    * At least Python 3.6 is required.
-* You use Visual Studio Code to use folde and file icons
-* You have either Windows, Linux or Mac machine.
+Para instalar o Framework de Data Science, siga os passos:
 
-##### 🚀 Installing Data Science Framework
-
-To install the Data Science Framework, follow these steps:
-
-* 📁 Select a folder which you want your project to live in.
+* 📁 Selecione uma pasta na qual você deseja que seu projeto fique
 
 ```
 ...
-📁 Data Science ⬅️ 💻 Start your terminal here 💻
+📁 Data Science ⬅️ 💻 Inicie o seu terminal aqui 💻
     📁 Diamond_Analysis
     📁 Wine_Analysis
     📁 Iris_Analysis
     ...
 ```
 
-* 💻 Install cokkiecutter with pip:
+* 💻 Instale cokkiecutter com pip:
 
 ```
 pip install cookiecutter
 ```
 
-* 💻 Then install the Data Science Framework running the following command:
+* 💻 Em seguida, instale o Data Science Framework executando o seguinte comando:
 
 ```
 cookiecutter https://github.com/AndrewLaganaro/Data_Science_Framework
 ```
 
-You'll be prompted with some questions, type your project infos as requested and hit enter.
+Você receberá algumas perguntas, digite as informações do seu projeto conforme solicitado e pressione Enter.
 
-* A folder will be created with the name you provided for your project
-* It's name will also be present on the main notebook file inside notebook folder
-* You'll also see the description and author name you provided in the README.md file of the project
+* Uma pasta será criada com o nome que você forneceu para o seu projeto
+* Seu nome também estará presente no arquivo principal do notebook dentro da pasta do Notebooks
+* Você também verá a descrição e o nome do autor que você forneceu no arquivo README.md do projeto
 
 ```
 Project Name [Project Name]: Penguim Dataset
@@ -96,7 +104,7 @@ Author [Your Name]: Daniel
 Description [Project Description]: Group different penguim species into groups based on their size and color
 ```
 
-Whatever name you give, spaces will be replaced with underscores and the name will end with "Analysis".
+Independente do nome que você der, os espaços serão substituídos por underline e o nome terminará com "Analysis".
 
 ```
 ...
@@ -108,37 +116,37 @@ Whatever name you give, spaces will be replaced with underscores and the name wi
     ...
 ```
 
-##### 🚀🖼 Installing Folder and Icon Themes configuration
+##### 🚀🖼 Instalando a configuração do temas de pastas e ícones
 
-* 💻 Be sure to install [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) in your VSCode
-* 📝 Add the content of **folder\_file\_icons.json** to your vscode **.json** configuration file.
+* 💻 Tenha certeza de ter instalado o [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) no seu VSCode
+* 📝 Adicione o conteúdo do arquivo **folder\_file\_icons.json** no **.json** de configuração do seu VSCode.
 
 ```
 {
-    "other vscode configs":"going around",
+    "outras configurações":"going around",
 
-    "material-icon-theme.folders.associations": { all folder associations },
-    "material-icon-theme.files.associations": { all file associations },
+    "material-icon-theme.folders.associations": { todas as associações de pastas },
+    "material-icon-theme.files.associations": { todas as associações de arquivos },
 
-    "other vscode configs":"going around",
+    "outras configurações":"going around",
 }
 ```
 
-##### 🖼 **Custom icons for Material Icon Theme**
+##### 🖼 **Ícones personalizados para a Material Icon Theme**
 
-* 📁 Create a folder **.vscode/extensions/icons** inside your **user** folder
-* 📝 Do not put **.svg** on the name of the file, just the name of the icon
-* 📁 You cand also copy the provided folder that comes with this Framework and use it as a starting point
-    * <img src="Images/network.svg" min-width="20px" max-width="30px" width="30px" align="center" alt="Framework_data_science"> The icon provided currently is for .pkl files
+* 📁 Crie uma pasta **.vscode/extensions/icons** dentro da sua pasta de **usuário** 
+* 📝 Não coloque **.svg** no final do nome do arquivo, apenas o nome do ícone
+* 📁 Você também pode copiar a pasta fornecida que vem com este Framework e usá-la como ponto de partida
+    * <img src="Images/network.svg" min-width="20px" max-width="30px" width="30px" align="center" alt="Framework_data_science"> O ícone fornecido atualmente é para arquivos .pkl do python
 
 ```
 ...
-📁 User 💻 Windows, Linux, Mac
+📁 Usuário 💻 Windows, Linux, Mac
     📁 .vscode
         📁 extensions
             📁 icons
                 🖼 custom-icon.svg
-    📁 Documents
+    📁 Documentos
         📁 Data Science
             📁 Diamond_Analysis
             📁 Wine_Analysis
@@ -146,83 +154,105 @@ Whatever name you give, spaces will be replaced with underscores and the name wi
     ...
 ```
 
-#### ☕ Using Data Science Framework
+#### ☕ Usando o Framework de Data Science
 
-To use this Data Science Framework, take a look at the folder descriptions bellow.
+Para usar este Framework de Data Science, dê uma olhada nas descrições das pastas abaixo.
 
-Meant to separate the project into analysis phase and deployment phase, the Framework structure is as follows:
+Com o objetivo de separar o projeto em fase de análise e fase de deploy, a estrutura do Framework é a seguinte:
 
-| **Project Structure** |
+| **Estrutura do Projeto** |
 | ----------------- |
 | ![](Images/Project_view.png) |
 
-#### ⚙️🖥 Development Folder
+#### ⚙️🖥 Pasta Development
 
 * 📊 **Data**
-    * Every dataset, model, scaler, classes and encoder object that is used in the project is stored here.
+     * Cada dataset, modelo, scaler, classes e objetos de encoder usados no projeto são armazenados aqui.
 * 📑 **Docs**
-    * Documentation for the project goes here.
+     * A documentação do projeto vai aqui.
 * 📚 **Notebooks**
-    * Notebooks for the project goes here.
+     * Notebooks do projeto vão aqui.
 * 📈 **Reports**
-    * Reports for the project, visualizations and other results issued along the project goes here.
+     * Relatórios do projeto, visualizações e outros resultados emitidos ao longo do projeto vão aqui.
 
-| **Development Folder** | **Notebooks Folder** |
+| **Pasta Development** | **Pasta Notebooks** |
 | ------------------ | ---------------- |
 | ![](Images/Development_folder_view.png) | ![](Images/Notebooks_folder_view.png) |
 
-#### 📊🖥 Project Folder
+#### 📊🖥 Pasta Project
 
-Here the structure is aimed to deploy the project in a container-served environment, as such, each folder inside ```App``` is meant to be a container:
+Aqui a estrutura tem como objetivo dar o deploy do projeto em um ambiente servido por containers, como tal, cada pasta dentro de ```App``` é suposta a ser um container:
 
 * 🖥📊 **App**
     * 🐳📦 **Backend**
-        * Backend code, predictions, training, API with database and frontend
-        * Also contains models, scalers, class and encoder objects
-        * Contains database configuration, table model, data schemas and migrations
+        * Código de backend, faz as predições, treinamento, API com banco de dados e frontend
+        * Também contém modelos, scalers, objetos de classe e encoders
+        * Contém configuração do banco de dados, modelo de tabelas, esquemas de dados e migrações
     * 🐳📦 **Frontend**
-        * Frontend code, visualizations, web app, API with backend
+        * Código de frontend, visualizações, web app, API com backend
     * 🐳📦 **Database**
-        * Database code, with all the data and models that are used in the project
+        * Código do banco de dados, com todos os dados e modelos que são usados ​​no projeto
     * 🐳📦 **Storage**
-        * Storage container, with logs, reports, images, etc Meant for local testing
+        * Container de armazenamento, com logs, relatórios, imagens, etc. Destinado a testes locais
 * 🖼 **Schemes**
-    * 🖼🖥 Schemes for the project, API scketchs, App schemes, etc
+    * 🖼🖥 Esquemas para o projeto, esboços de API, esquemas de apps, etc
 * 💿 **Server**
     * 🐳 **Docker**
-        * Docker compose files for development and production
+        * Arquivos de docker compose para desenvolvimento e deploy
     * ⚙️ **Env**
-        * Environment variables for the project, mainly to be used with docker compose
+        * Variáveis ​​de ambiente para o projeto, principalmente para serem usadas com docker compose
     * ⛩ **Heroku**
-        * Heroku app configuration files, runtime, requirements, etc
-        * It is also possible to deploy a docker container in a heroku app using Heroku.yml
+        * Arquivos de configuração do aplicativo do Heroku, runtime, requirements, etc.
+        * Também é possível dar o deploy num container docker em um aplicativo heroku usando o arquivo Heroku.yml
     * 🐍💿 **Server.py**
-        * Server code, meant to automate the deployment with docker
+        * Código do server, destinado a automatizar o deploy com docker
 
-| **Project Folder** | **Backend Folder** | **Server Folder** |
+| **Pasta Project** | **Pasta Backend** | **Pasta Server** |
 | -------------- | -------------- | ------------- |
 | ![](Images/Project_folder_view.png) | ![](Images/Backend_folder_view.png) | ![](Images/Server_folder_view.png) |
 
-#### 🛠🖥 Build Folder
+#### 🛠🖥 Pasta Build
 
-This is where the container is built both to backend and frontend:
+É aqui que o damos o build nos containers para backend e frontend:
 
 * 🐳📝 **Dockerfile**
-    * Dockerfile with minimal python-poetry setup
-    * Receives current virtual environment from /Env folder and docker compose
-    * Using poetry as a dependency manager, separating dependencies according to the current environment (dev, prod)
-    * Using a pyhon virtual environment with venv
+    * Dockerfile com configuração mínima de python-poetry
+    * Recebe o ambiente virtual atual da pasta ```/Env``` e docker compose
+    * Usando poetry como gerenciador de dependências, separando as dependências de acordo com o ambiente atual (dev, prod)
+    * Usando um ambiente virtual python com venv
 * 🐳⚙️ **Entrypoint.sh**
-    * Entrypoint.sh with commands to run the project after docker build
+    * Entrypoint.sh com comandos para executar o projeto após a build do docker
 * 🐍⚙️ **Poetry.lock**
-    * Poetry lock file, with all the dependencies of the project listed by version
+    * Arquivo Poetry.lock com todas as dependências do projeto listadas por versão
 * 🐍⚙️ **Pyproject.toml**
-    * Pyproject.toml with the project dependencies separated by current environment (dev, prod)
+    * Arquivo Pyproject.toml com as dependências do projeto separadas pelo ambiente atual (dev, prod)
 * 🐍📝**Requirements.py**
-    * If chosen to deploy in a container but not to install dependencies on build stage, this file handles the dependencies installation when being called via entrypoint.sh
+    * Se escolhido o deploy em container mas não instalar as dependências no estágio de build, este arquivo trata da instalação de dependências após a build ao ser chamado via entrypoint.sh
 * 🐍📝**Requirements.txt**
-    * Requirements.txt with the dependencies of the project to be used by Heroku or with requirements.py
+    * Requirements.txt com as dependências do projeto a ser usado pelo Heroku ou com requirements.py
 
-| **Build Folder** | **Frontend Folder** |
+| **Pasta Build** | **Pasta Frontend** |
 | ------------ | --------------- |
 | ![](Images/Build_folder_view.png) | ![](Images/Frontend_folder_view.png) |
+
+#### ⭐️ Recursos a serem adicionados
+
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/20)
+
+* [ ] Melhorar este arquivo Readme
+     * [ ] Comparar uma árvore de arquivos em texto com as do repositório, ver qual se encaixa melhor
+     * [ ] Adicionar um diagrama feito com Drawio da estrutura de pastas
+* [ ] Concluir arquivos de pipeline de ciência de dados
+* [ ] Concluir o Dockerfile da configuração do container do banco de dados
+* [ ] Criar um aplicativo web de hello world usando streamlit
+* [ ] Criar uma API hello world usando fastapi
+* [ ] Criar uma função de exemplo para comunicação entre containeres de back-end e front-end
+* [ ] Entender melhor como usar MySQL ou PostgreSQL com Alembic, Pydantic, SQLAlchemy e FastAPI
+* [ ] Criar uma classe de exemplo para operações CRUD com SQLAlchemy e FastAPI
+
+---
+
+####  ⬇️ Dá uma olhada no meu Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  
