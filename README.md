@@ -12,7 +12,15 @@
 
 ##### Autor: Andrew Laganaro
 
+<<<<<<< HEAD
 ---
+=======
+##### Author: Andrew Laganaro
+
+#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+
+## 📜 About this project
+>>>>>>> d64c97a6255082360d2575b98dac4255eba3bd59
 
 ## 📜 Sobre este projeto
 
@@ -31,7 +39,23 @@
 * 🐳Docker
 * 🖼Drawio
 
+<<<<<<< HEAD
 ### 🛠 Projetos
+=======
+### 🛠 Projects
+
+  [![Store Sales Analysis](https://img.shields.io/badge/Projects-Store%20Sales%20Analysis-orange)](https://github.com/AndrewLaganaro/Store_Sales_Analysis)
+  
+  [![Data Science Framework](https://img.shields.io/badge/Projects-Data%20Science%20Framework-blue)](https://github.com/AndrewLaganaro/Data_Science_Framework)
+  
+  [![Data Science Classes](https://img.shields.io/badge/Projects-Data%20Science%20Classes-red)](https://github.com/AndrewLaganaro/Data_Science_Classes)
+
+####  ⬇️ Take a look at my Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  
+#### 🎯 General project status
+>>>>>>> d64c97a6255082360d2575b98dac4255eba3bd59
 
   [![Store Sales Analysis](https://img.shields.io/badge/Projects-Store%20Sales%20Analysis-orange)](https://github.com/AndrewLaganaro/Store_Sales_Analysis)
   
