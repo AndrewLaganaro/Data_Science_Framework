@@ -20,7 +20,7 @@
 
 > Neste repositório eu compartilho uma configuração de pastas que me ajudou no desenvolvimento e análise de ciência de dados quando eu estava começando a aprender sobre o assunto
 >
-> O objetivo desta configuração de pastas não é apenas ser um ponto de partida para projetos de ciência de dados, mas também uma base para uma arquitetura de implantação servida por containers, com imagens Docker pré-configuradas para cada serviço.
+> O objetivo desta configuração de pastas é não  apenas ser um ponto de partida para projetos de ciência de dados, mas também uma base para uma arquitetura de deploy servida por containers, com imagens Docker pré-configuradas para cada serviço.
 
 #### 🚀 Construído com
 * 🐍Python
