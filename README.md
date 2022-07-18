@@ -14,7 +14,7 @@
 
 ---
 
-## 📜 Sobre este projeto
+## 📜 Sobre o projeto
 
 #### Um Framework para Projetos de Data Science, da análise ao deploy
 
