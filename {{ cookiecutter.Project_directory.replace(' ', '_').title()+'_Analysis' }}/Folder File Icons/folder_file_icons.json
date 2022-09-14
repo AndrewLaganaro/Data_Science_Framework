@@ -1,5 +1,10 @@
 {
     "material-icon-theme.folders.associations": {
+        "Data":"database","Docs":"Docs","Frontend":"vm",
+        "server":"server","Docker": "docker","env":"environment",
+        "Reports":"resource", "Assets":"resource","Static":"resource",
+        "Templates":"template","Database":"database","Versions":"mock",
+        "Images":"images","Classes":"class","Databases":"database",
         "Notebooks": "project", "Saved": "dump",
         "Production": "shared", "Predictions": "review",
         "Developing": "test", "Build": "config", "Preliminary": "other",  
@@ -10,7 +15,7 @@
         "Raw": "components", "Ongoing": "test",
         "Dataset": "meta", "Data Analysis": "pipe",
         "Data Science": "pipe", "data_analysis": "pipe",
-        "data_science": "pipe", "deployment": "pipe",
+        "data_science": "pipe", "deployment": "project",
         "Machine Learning": "pipe", "Machine_learning": "pipe", "Pipeline": "pipe",
         "Airflow": "connection", "Django": "connection",
         "Flask": "connection", "Fastapi": "connection",
@@ -26,11 +31,12 @@
         "Encoders":"mock",".unotes":"mock","Schemes":"mock", "Landing": "components", "Processing": "test",
         "Datalake": "aws", "Dags": "context", "Backend": "core"
     },
-"material-icon-theme.files.associations": {
-    "Requirements.dev.txt": "python-misc", "Requirements.prod.txt": "python-misc",
-    "Requirements.back.txt": "python-misc", "Requirements.front.txt": "python-misc",
-    "Heroku.yml": "heroku", "*.bat": "powershell", "Aptfile": "heroku", "Runtime.txt":"heroku",
-    "*.pkl": "..//..//icons//network"
-}
+    "material-icon-theme.files.associations": {
+        "Requirements.dev.txt": "python-misc", "Requirements.prod.txt": "python-misc",
+        "Requirements.back.txt": "python-misc", "Requirements.front.txt": "python-misc",
+        "Heroku.yml": "heroku", "*.bat": "powershell", "Aptfile": "heroku", "Runtime.txt":"heroku",
+        "*.pkl": "..//..//icons//network", "docker-compose.monolith.yml": "docker", 
+        "docker-compose.micro-services.yml": "docker"
+    }
 
 }
