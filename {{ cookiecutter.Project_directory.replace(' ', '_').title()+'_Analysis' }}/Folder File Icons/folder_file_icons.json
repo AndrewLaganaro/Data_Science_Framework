@@ -37,6 +37,6 @@
         "Heroku.yml": "heroku", "*.bat": "powershell", "Aptfile": "heroku", "Runtime.txt":"heroku",
         "*.pkl": "..//..//icons//network", "docker-compose.monolith.yml": "docker", 
         "docker-compose.micro-services.yml": "docker"
-    }
-
+    },
+    "note":"you need to put the folder on the user in order to some folder icons to work, or remove the file icon config in icons/network"
 }
